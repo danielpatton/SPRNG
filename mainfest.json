@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Sdsu Professor Reviews",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://sunspot.sdsu.edu/pls/webapp/web_menu.login/"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+
+}
